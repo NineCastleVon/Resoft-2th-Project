@@ -7,7 +7,7 @@
 - Week 2 : I embodied history and organization chart, It was responsible for all the fine-grained coordination, incorporating the parts made by each team member<br/>
 - Week 3 : We implemented the event portion lacking in detail and created and consolidated the entire media query<br/>
 
-### <the effect of implementation>
+### [the effect of implementation]
 1) main-page<br/>
 - a. Header part : slide animation from cbpBGSlideshow, nav-bar hover(change color,add an underline) event, hamberger button, make a top button
 - b. News part : hover zoom in animation
