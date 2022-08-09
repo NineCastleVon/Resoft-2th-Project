@@ -24,7 +24,7 @@ li {
     position: fixed;
     z-index: 999;
     bottom: 7%;
-    right: 5%;
+    right: 3%;
     align-items: center;
     display: none;
 }
@@ -668,15 +668,14 @@ header h1 a img {
 
 /************** media query mobile ****************/
 @media (max-width: 768px) {
+/************** media query 1. Header mobile ****************/
     body {
         -ms-overflow-style: none; /* IE and Edge */
         scrollbar-width: none; /* Firefox */
-        width: 100%;
     }
     body::-webkit-scrollbar {
         display: none; /* Chrome, Safari, Opera*/
     }
-/************** media query 1. Header mobile ****************/
     header {
         width: 768px;
     }
@@ -810,13 +809,13 @@ header h1 a img {
 
     .moado_right p {
         top: 305px;
-        right: 15px;
+        right: 20px;
         font-size: 20px;
         left: unset;
     }
 
     .moado_right img {
-        right: 15px;
+        right: 20px;
         top: 370px;
         width: 315px;
         height: auto;
@@ -825,7 +824,7 @@ header h1 a img {
 
     .moado_right button {
         top: 460px;
-        right: 15px;
+        right: 20px;
         left: unset;
     }
 

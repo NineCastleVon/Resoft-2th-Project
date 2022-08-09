@@ -24,7 +24,7 @@ li {
     position: fixed;
     z-index: 999;
     bottom: 7%;
-    right: 5%;
+    right: 3%;
     align-items: center;
     display: none;
 }
@@ -203,7 +203,6 @@ header h1 a img {
 /************************** infomation **************************/
 #infomation {
     max-width: 1440px;
-    height: 1738px;
     margin: 0 auto;
 }
 

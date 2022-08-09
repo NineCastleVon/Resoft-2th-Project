@@ -24,7 +24,7 @@ li {
     position: fixed;
     z-index: 999;
     bottom: 7%;
-    right: 5%;
+    right: 3%;
     align-items: center;
     display: none;
 }
@@ -228,6 +228,9 @@ header h1 a img {
     margin-top: 8px;
     margin-left: 20px;
     font-size: 16px;
+}
+.nes .left-button a:hover {
+    color: blue;
 }
 
 .news .infomation-title .title-p{
