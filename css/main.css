@@ -24,11 +24,8 @@
 body {
     max-width: 1920px;
     margin: 0 auto;
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-}
-body::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera*/
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 li {
     list-style: none;
@@ -818,12 +815,7 @@ span.cbp-biprev:before {
 /************** media query 1. Header tablet ****************/
 @media (min-width: 769px) and (max-width: 1280px) {
     body {
-        -ms-overflow-style: none; /* IE and Edge */
-        scrollbar-width: none; /* Firefox */
         width: 1280px;
-    }
-    body::-webkit-scrollbar {
-        display: none; /* Chrome, Safari, Opera*/
     }
     /******* header *******/
     header h1 a {    
