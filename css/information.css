@@ -286,6 +286,7 @@ header h1 a img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 .info-btn{
     font-size: 20px;
@@ -393,7 +394,6 @@ header h1 a img {
 /************** media query 2. news tablet ****************/
     #infomation {
         width: 1280px;
-        height: 1955px;
     }
     #infomation .cont{
         width: 100%;
@@ -503,10 +503,6 @@ header h1 a img {
         margin-top: -190px;
     }
 /************** media query 2.information mobile ****************/
-    #infomation {
-        height: 1265px;
-    }
-
     #infomation .title {
         text-align: center;
     }
