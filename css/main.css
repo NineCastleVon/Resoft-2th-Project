@@ -1343,3 +1343,187 @@ span.cbp-biprev:before {
         display: none;
     }
 }
+
+
+@media (max-width: 360px) {
+    body {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+        width: 360px;
+    }
+    body::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera*/
+    }
+/************** media query 1. Header mobile ****************/
+    header .container {
+        width: 360px;
+    }
+    header h1 a {    
+        margin-left: 10px;
+    }
+    header nav ul li {
+        padding: 0;
+    }
+    header .nav a {
+        display: none;
+    }
+    header .nav .btn {
+        margin-left: 145px;
+    }
+    .overlay .mobile {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .overlay .m-line {
+        display: block;
+        padding: 0;
+        border-bottom: 1px solid #9E9E9E;
+        width: 768px;
+        margin-left: -255px;
+    }
+    .overlay-content {
+        letter-spacing: 0;
+    }
+    .overlay-content:first-child {
+        margin-left: 20px;
+    }
+    .overlay-content:nth-child(2) {
+        margin-left: -450px;
+    }
+    .overlay-content:last-child {
+        margin-left: -350px;
+    }
+    .hd-1 {
+        margin-left: -140px;
+        margin-top: -100px;
+    }
+    .hd-1 p.sub-text {
+        font-size: 15px;
+        text-align: center;
+    }
+    .cbp-bicontrols {
+        margin-left: 35px;
+    }
+
+/************** media query 2. news mobile ****************/
+    .news{
+        width: 360px;
+        margin: 0;
+        margin-bottom: -250px;
+        margin-top: 145px;
+    }
+    .news .title{
+        text-align: center;
+    }
+    .news .cont {
+        display: grid;
+        grid-template-columns: repeat(2, 153px);
+        grid-template-rows: 0.1fr 0.1fr;
+        justify-content: center;
+        gap: 5px 5px;
+    }
+    .news .cont .link a .img-wrap {
+        width: 150px;
+        height: 100px;
+        max-width: 150px;
+        max-height: 100px;
+    }
+    .news .cont .line1,
+    .news .cont .line2,
+    .news .cont .line3 {
+        display: none;
+    }
+
+    /************** media query 3. project mobile ****************/
+    .pject-wrap {
+        width: 100%;
+        height: 1911px;
+        z-index: 80;
+        position: relative;
+    }
+    .pject-con-wrap {
+        margin: 0 auto;
+        display: block;
+    }
+    .pject-con-wrap {
+        padding-top: 100px;
+    }
+    .pject-text {
+        text-align: center;
+        margin-top: -960px;
+    }   
+    .pject-text h2 {
+        font-weight: bold;
+        font-size: 40px;
+        color: #1E1E1E;
+    }
+    .pject-text .pject-eng {
+        color: #C8C8C8;
+        padding-bottom: 50px;
+        font-weight: Medium;
+        font-size: 18px;
+    }
+    .pject-text .pject-con {
+        color: #1E1E1E;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 2;
+        letter-spacing: -0.5;
+    }
+    .motion-pic-1 {
+        display: none;
+    }
+    .motion-pic-2 {
+        display: block;
+        margin-left: -39px;
+    }
+    
+    .pject-ecoce-wrap {
+        margin-left: 117px;
+        top: 750px;
+    }
+    .pject-moado-wrap {
+        margin-left: 117px;
+        top: 750px;
+    }
+
+/************** media query 4. service mobile ****************/
+    .service {
+        height: 1853px;
+        background-color: #F2F6FC;
+        margin-top: -100px;
+        padding-top: 100px;
+    }
+    .service .left .title :nth-child(1) {
+        margin-left: 324px;
+    }
+    .service .left .title :nth-child(2) {
+        margin-left: 349px;
+    }
+    .service .left .title :nth-child(3) {
+        margin-left: 120px;
+        text-rendering: optimizeSpeed;
+        letter-spacing: -1.8px;
+    }
+    .aniimg {
+        display: none;
+    }
+    .aniimg_small {
+        display: block;
+        margin-left: 117px;
+        margin-top: -60px;
+    }
+    .right {
+        top: 44.2%;
+        left: -78.3%;
+        margin-left: -96px;
+    }
+    .web {
+        position: absolute;
+        left: 355px;
+    }
+    .xr {
+        position: absolute;
+        left: 355px;
+    }
+}
