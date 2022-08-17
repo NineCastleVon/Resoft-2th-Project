@@ -1258,7 +1258,7 @@ span.cbp-biprev:before {
     }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 361px) and (max-width: 480px) {
     body {
         -ms-overflow-style: none; /* IE and Edge */
         scrollbar-width: none; /* Firefox */
@@ -1268,17 +1268,23 @@ span.cbp-biprev:before {
         display: none; /* Chrome, Safari, Opera*/
     }
 /************** media query 1. Header mobile ****************/
+    header .container {
+        width: 480px;
+    }
     header h1 a {    
         margin-left: 10px;
     }
-    header .nav {
-        margin-right: 810px;
+    header nav ul li {
+        padding: 0;
     }
     header .nav a {
         display: none;
     }
     header .nav .btn {
-        margin-left: -922px;
+        margin-left: -300px;
+    }
+    .overlay {
+        width: 480px;
     }
     .overlay .mobile {
         display: block;
@@ -1295,23 +1301,23 @@ span.cbp-biprev:before {
         letter-spacing: 0;
     }
     .overlay-content:first-child {
-        margin-left: 150px;
+        margin-left: 50px;
     }
     .overlay-content:nth-child(2) {
-        margin-left: -450px;
+        margin-left: -425px;
         margin-top: 15px;
-        
     }
     .overlay-content:last-child {
-        margin-left: -350px;
-        margin-top: 15px;
+        margin-left: 310px;
     }
     .hd-1 {
-        margin-left: -166px;
+        margin-left: -140px;
+    }
+    .hd-1 p.sub-text {
+        font-size: 15px;
     }
     .cbp-bicontrols {
-        margin-left: 100px;
-        padding-top: 40px;
+        margin-left: 35px;
     }
 
 /************** media query 2. news mobile ****************/
@@ -1342,98 +1348,6 @@ span.cbp-biprev:before {
     .news .cont .line3 {
         display: none;
     }
-}
-
-
-@media (max-width: 360px) {
-    body {
-        -ms-overflow-style: none; /* IE and Edge */
-        scrollbar-width: none; /* Firefox */
-        width: 360px;
-    }
-    body::-webkit-scrollbar {
-        display: none; /* Chrome, Safari, Opera*/
-    }
-/************** media query 1. Header mobile ****************/
-    header .container {
-        width: 360px;
-    }
-    header h1 a {    
-        margin-left: 10px;
-    }
-    header nav ul li {
-        padding: 0;
-    }
-    header .nav a {
-        display: none;
-    }
-    header .nav .btn {
-        margin-left: 145px;
-    }
-    .overlay .mobile {
-        display: block;
-        margin-bottom: 10px;
-    }
-    .overlay .m-line {
-        display: block;
-        padding: 0;
-        border-bottom: 1px solid #9E9E9E;
-        width: 768px;
-        margin-left: -255px;
-    }
-    .overlay-content {
-        letter-spacing: 0;
-    }
-    .overlay-content:first-child {
-        margin-left: 20px;
-    }
-    .overlay-content:nth-child(2) {
-        margin-left: -450px;
-    }
-    .overlay-content:last-child {
-        margin-left: -350px;
-    }
-    .hd-1 {
-        margin-left: -140px;
-        margin-top: -100px;
-    }
-    .hd-1 p.sub-text {
-        font-size: 15px;
-        text-align: center;
-    }
-    .cbp-bicontrols {
-        margin-left: 35px;
-    }
-
-/************** media query 2. news mobile ****************/
-    .news{
-        width: 360px;
-        margin: 0;
-        margin-bottom: -250px;
-        margin-top: 145px;
-    }
-    .news .title{
-        text-align: center;
-    }
-    .news .cont {
-        display: grid;
-        grid-template-columns: repeat(2, 153px);
-        grid-template-rows: 0.1fr 0.1fr;
-        justify-content: center;
-        gap: 5px 5px;
-    }
-    .news .cont .link a .img-wrap {
-        width: 150px;
-        height: 100px;
-        max-width: 150px;
-        max-height: 100px;
-    }
-    .news .cont .line1,
-    .news .cont .line2,
-    .news .cont .line3 {
-        display: none;
-    }
-
     /************** media query 3. project mobile ****************/
     .pject-wrap {
         width: 100%;
@@ -1466,7 +1380,7 @@ span.cbp-biprev:before {
     .pject-text .pject-con {
         color: #1E1E1E;
         font-weight: bold;
-        font-size: 26px;
+        font-size: 21px;
         line-height: 2;
         letter-spacing: -0.5;
     }
@@ -1475,55 +1389,20 @@ span.cbp-biprev:before {
     }
     .motion-pic-2 {
         display: block;
-        margin-left: -39px;
+        margin-left: 0px;
+        width: 480px;
+        height: 417px;
     }
-    
     .pject-ecoce-wrap {
-        margin-left: 117px;
-        top: 750px;
+        margin-left: 0px;
+        top: 600px;
+        width: 480px;
+        height: 417px;
     }
     .pject-moado-wrap {
-        margin-left: 117px;
-        top: 750px;
-    }
-
-/************** media query 4. service mobile ****************/
-    .service {
-        height: 1853px;
-        background-color: #F2F6FC;
-        margin-top: -100px;
-        padding-top: 100px;
-    }
-    .service .left .title :nth-child(1) {
-        margin-left: 324px;
-    }
-    .service .left .title :nth-child(2) {
-        margin-left: 349px;
-    }
-    .service .left .title :nth-child(3) {
-        margin-left: 120px;
-        text-rendering: optimizeSpeed;
-        letter-spacing: -1.8px;
-    }
-    .aniimg {
-        display: none;
-    }
-    .aniimg_small {
-        display: block;
-        margin-left: 117px;
-        margin-top: -60px;
-    }
-    .right {
-        top: 44.2%;
-        left: -78.3%;
-        margin-left: -96px;
-    }
-    .web {
-        position: absolute;
-        left: 355px;
-    }
-    .xr {
-        position: absolute;
-        left: 355px;
+        margin-left: 0px;
+        top: 550px;
+        width: 480px;
+        height: 417px;
     }
 }
