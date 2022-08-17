@@ -1269,16 +1269,16 @@ span.cbp-biprev:before {
     }
 /************** media query 1. Header mobile ****************/
     header h1 a {    
-        margin-left: 32px;
+        margin-left: 10px;
     }
     header .nav {
-        margin-right: 1222px;
+        margin-right: 810px;
     }
     header .nav a {
         display: none;
     }
     header .nav .btn {
-        margin-left: -50px;
+        margin-left: -922px;
     }
     .overlay .mobile {
         display: block;
@@ -1299,22 +1299,47 @@ span.cbp-biprev:before {
     }
     .overlay-content:nth-child(2) {
         margin-left: -450px;
-        margin-top: 20px;
+        margin-top: 15px;
+        
     }
     .overlay-content:last-child {
         margin-left: -350px;
-        margin-top: 20px;
+        margin-top: 15px;
     }
     .hd-1 {
         margin-left: -166px;
     }
     .cbp-bicontrols {
-        margin-left: 35px;
+        margin-left: 100px;
+        padding-top: 40px;
+    }
+
+/************** media query 2. news mobile ****************/
+    .news{
+        width: 480px;
+        margin: 0;
+        margin-bottom: -250px;
+        margin-top: 145px;
+    }
+    .news .title{
+        text-align: center;
+    }
+    .news .cont {
+        display: grid;
+        grid-template-columns: repeat(2, 223px);
+        grid-template-rows: 0.5fr 0.5fr;
+        justify-content: center;
+        gap: 10px 10px;
+    }
+    .news .cont .link a .img-wrap {
+        width: 225px;
+        height: 150px;
+        max-width: 225px;
+        max-height: 150px;
+    }
+    .news .cont .line1,
+    .news .cont .line2,
+    .news .cont .line3 {
+        display: none;
     }
 }
-
-
-
-
-
-
