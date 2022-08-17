@@ -1258,18 +1258,18 @@ span.cbp-biprev:before {
     }
 }
 
-@media (min-width: 361px) and (max-width: 480px) {
+@media (max-width: 430px) {
     body {
         -ms-overflow-style: none; /* IE and Edge */
         scrollbar-width: none; /* Firefox */
-        width: 480px;
+        width: 430px;
     }
     body::-webkit-scrollbar {
         display: none; /* Chrome, Safari, Opera*/
     }
 /************** media query 1. Header mobile ****************/
     header .container {
-        width: 480px;
+        width: 430px;
     }
     header h1 a {    
         margin-left: 10px;
@@ -1301,28 +1301,29 @@ span.cbp-biprev:before {
         letter-spacing: 0;
     }
     .overlay-content:first-child {
-        margin-left: 50px;
+        margin-left: 20px;
     }
     .overlay-content:nth-child(2) {
-        margin-left: -425px;
+        margin-left: -430px;
         margin-top: 15px;
     }
     .overlay-content:last-child {
-        margin-left: 310px;
+        margin-left: 270px;
     }
     .hd-1 {
-        margin-left: -140px;
+        margin-left: -100px;
     }
     .hd-1 p.sub-text {
         font-size: 15px;
     }
     .cbp-bicontrols {
-        margin-left: 35px;
+        margin-left: 70px;
+        padding-top: 70px;
     }
 
 /************** media query 2. news mobile ****************/
     .news{
-        width: 480px;
+        width: 430px;
         margin: 0;
         margin-bottom: -250px;
         margin-top: 145px;
@@ -1332,16 +1333,16 @@ span.cbp-biprev:before {
     }
     .news .cont {
         display: grid;
-        grid-template-columns: repeat(2, 223px);
+        grid-template-columns: repeat(2, 183px);
         grid-template-rows: 0.5fr 0.5fr;
         justify-content: center;
         gap: 10px 10px;
     }
     .news .cont .link a .img-wrap {
-        width: 225px;
-        height: 150px;
-        max-width: 225px;
-        max-height: 150px;
+        width: 180px;
+        height: 120px;
+        max-width: 180px;
+        max-height: 120px;
     }
     .news .cont .line1,
     .news .cont .line2,
@@ -1351,7 +1352,7 @@ span.cbp-biprev:before {
     /************** media query 3. project mobile ****************/
     .pject-wrap {
         width: 100%;
-        height: 1911px;
+        height: 1500px;
         z-index: 80;
         position: relative;
     }
@@ -1359,12 +1360,9 @@ span.cbp-biprev:before {
         margin: 0 auto;
         display: block;
     }
-    .pject-con-wrap {
-        padding-top: 100px;
-    }
     .pject-text {
         text-align: center;
-        margin-top: -960px;
+        margin-top: -950px;
     }   
     .pject-text h2 {
         font-weight: bold;
@@ -1380,7 +1378,7 @@ span.cbp-biprev:before {
     .pject-text .pject-con {
         color: #1E1E1E;
         font-weight: bold;
-        font-size: 21px;
+        font-size: 19px;
         line-height: 2;
         letter-spacing: -0.5;
     }
@@ -1390,19 +1388,19 @@ span.cbp-biprev:before {
     .motion-pic-2 {
         display: block;
         margin-left: 0px;
-        width: 480px;
-        height: 417px;
+        width: 430px;
+        height: 374px;
     }
     .pject-ecoce-wrap {
         margin-left: 0px;
-        top: 600px;
-        width: 480px;
-        height: 417px;
+        top: 400px;
+        width: 430px;
+        height: 374px;
     }
     .pject-moado-wrap {
         margin-left: 0px;
-        top: 550px;
-        width: 480px;
-        height: 417px;
+        top: 400px;
+        width: 430px;
+        height: 374px;
     }
 }
