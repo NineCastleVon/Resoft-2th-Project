@@ -1257,3 +1257,64 @@ span.cbp-biprev:before {
         line-height: 1.7;
     }
 }
+
+@media (max-width: 480px) {
+    body {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+        width: 480px;
+    }
+    body::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera*/
+    }
+/************** media query 1. Header mobile ****************/
+    header h1 a {    
+        margin-left: 32px;
+    }
+    header .nav {
+        margin-right: 1222px;
+    }
+    header .nav a {
+        display: none;
+    }
+    header .nav .btn {
+        margin-left: -50px;
+    }
+    .overlay .mobile {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .overlay .m-line {
+        display: block;
+        padding: 0;
+        border-bottom: 1px solid #9E9E9E;
+        width: 768px;
+        margin-left: -255px;
+    }
+    .overlay-content {
+        letter-spacing: 0;
+    }
+    .overlay-content:first-child {
+        margin-left: 150px;
+    }
+    .overlay-content:nth-child(2) {
+        margin-left: -450px;
+        margin-top: 20px;
+    }
+    .overlay-content:last-child {
+        margin-left: -350px;
+        margin-top: 20px;
+    }
+    .hd-1 {
+        margin-left: -166px;
+    }
+    .cbp-bicontrols {
+        margin-left: 35px;
+    }
+}
+
+
+
+
+
+
