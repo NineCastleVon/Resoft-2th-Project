@@ -426,7 +426,6 @@ span.cbp-biprev:before {
     background: #F9F8FF;
     width: 100%;
     height: 1147px;
-    z-index: 80;
 }
 
 .pject-con-wrap {
@@ -512,7 +511,6 @@ span.cbp-biprev:before {
     position: absolute;
     color: #FFFFFF;
     font-size: 17px;
-    z-index: 2;
     padding: 260px 0 0 21px;
     top: 0;
     right: 0;
@@ -521,7 +519,6 @@ span.cbp-biprev:before {
     opacity: 0;
     background-color: rgba(0, 0, 0, 0.5);
     display: block;
-    z-index: 1;
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -805,7 +802,7 @@ span.cbp-biprev:before {
 .footer-wrap .address .footer-add {
     position: relative;
     height: 24px;
-    left: 460px;
+    margin-left: 450px;
     bottom:20px;
     font-size: 24px;
 }
@@ -817,7 +814,7 @@ span.cbp-biprev:before {
 }
 .footer-wrap .address .footer-inform-add {
     position:relative;
-    left: 1000px;
+    margin-left: 962px;
     bottom: 50px;
     height: 50px;
     margin-top: -25px;
@@ -911,7 +908,6 @@ span.cbp-biprev:before {
     .pject-wrap {
         width: 100%;
         height: 1911px;
-        z-index: 80;
         position: relative;
     }
     .pject-con-wrap {
@@ -1038,8 +1034,8 @@ span.cbp-biprev:before {
         width: 100%
     }
     .footer-wrap .address .footer-add {
-        margin-left: -157px;
         font-size: 18px;
+        margin-left: 290px;
     }
     .footer-wrap .address .footer-inform {
         margin-left: 83px;
@@ -1047,9 +1043,9 @@ span.cbp-biprev:before {
         letter-spacing: -1px;
     }
     .footer-wrap .address .footer-inform-add {
-        margin-left: -291px;
         text-rendering: optimizeSpeed;
         letter-spacing: -1px;
+        margin-left: 712px;
     }
 }
 
@@ -1065,6 +1061,7 @@ span.cbp-biprev:before {
 /************** media query 1. Header mobile ****************/
     header .container {
         width: 768px;
+        z-index: 1000;
     }
     header h1 a {    
         margin-left: 32px;
@@ -1085,6 +1082,7 @@ span.cbp-biprev:before {
         display: block;
         margin-bottom: 10px;
         width: 768px;
+        z-index: 1000;
     }
     .overlay .m-line {
         display: block;
@@ -1143,7 +1141,6 @@ span.cbp-biprev:before {
     .pject-wrap {
         width: 100%;
         height: 1911px;
-        z-index: 80;
         position: relative;
     }
     .pject-con-wrap {
@@ -1256,17 +1253,23 @@ span.cbp-biprev:before {
         height: 331px;
         background-color: #E9E9E9;
         margin-top: 230px;
+        width: 768px;
+    }
+    .footer-wrap {
+        width: 768px;
     }
     #footer .footer-logo {
         margin-left: -157px;
+        width: 768px;
     }
     .footer-wrap .address {
         letter-spacing: -0.8px;
         text-rendering: optimizeSpeed;
         height: 220px;
+        width: 768px;
     }
     .footer-wrap .address .footer-add {
-        margin-left: -157px;
+        margin-left: 290px;
         font-size: 18px;
     }
     .footer-wrap .address .footer-inform {
@@ -1274,7 +1277,7 @@ span.cbp-biprev:before {
         line-height: 1.7;
     }
     .footer-wrap .address .footer-inform-add {
-        margin-left: -918px;
+        margin-left: 83px;
         margin-top: 90px;
         line-height: 1.7;
     }
