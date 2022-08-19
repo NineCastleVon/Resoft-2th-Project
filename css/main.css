@@ -22,7 +22,8 @@
 }
 
 body {
-    max-width: 1920px;
+    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     overflow-x: hidden;
     overflow-y: auto;
@@ -54,6 +55,7 @@ header {
     width: 100%;
     z-index: 1;
     top:0;
+    position: relative;
 }
 /* position fixed를 제거 */
 
@@ -61,7 +63,7 @@ header .container{
     display: flex;
     justify-content: space-between; /* 양 끝으로 배치 */
     align-items: center;
-    width: 100%;
+    width: 1920px;
     border: 1px solid #ffff;
     height: 80px;
     position: fixed;
@@ -108,7 +110,7 @@ header nav ul li.btn button {
 }
 .hd-1 {
     position: absolute;
-    top: 400px;
+    top: -300px;
     left: 240px;
     color: #ffff;
     letter-spacing: 0;
@@ -130,7 +132,9 @@ header nav ul li.btn button {
 
 /************************* nav-bar ****************************/
 .nav {
-    margin-right: -9px;   
+    margin-right: -250px;
+    width: 100%;
+    margin-left: 640px;
 }
 #nav-bar li {
     margin-top: 2px;
@@ -152,7 +156,7 @@ header nav ul li.btn button {
 /************************** Hidden ****************************/
 .overlay {
     height: 210px;
-    width: 100%;
+    width: 1920px;
     z-index: 1000;
     top: 80px;
     left: 0;
@@ -169,7 +173,7 @@ header nav ul li.btn button {
     line-height: 0.7;
 }
 .overlay-content:first-child {
-    margin-left: 1161px;
+    margin-left: 1158px;
 }
 .overlay-content:nth-child(2) {
     margin-left: -22px;
@@ -204,7 +208,7 @@ header nav ul li.btn button {
 	list-style: none;
 	width: 100%;
     position: absolute;
-	top: 0;
+	top: -730%;
 	left: 0;
 	z-index: -1;
 	padding: 0;
@@ -461,9 +465,13 @@ span.cbp-biprev:before {
 
 .motion-pic-1 {
     margin-top: 61px;
+    width: 680px;
+    height: 591px;
 }
 .motion-pic-2 {
     display: none;
+    width: 680px;
+    height: 591px;
 }
 
 .pject-con-right {
@@ -824,16 +832,23 @@ span.cbp-biprev:before {
     header {
         height: 100%;
     }
+    header .container {
+        width: 1280px;
+    }
     header h1 a {    
-        margin-left: 221px;
+        margin-left: 140px;
     }
     header .nav {
-        margin-right: -20px;
+        margin-left: 265px;
+        width: 100%;
     }
     header nav ul li {
         margin-left: 91.5px;
         margin-right: -97px;
         letter-spacing: -1;
+    }
+    .overlay {
+        width: 1280px;
     }
     .overlay .mobile {
         display: none;
@@ -842,7 +857,7 @@ span.cbp-biprev:before {
         display: none;
     }
     .overlay-content:first-child {
-        margin-left: 629px;
+        margin-left: 654px;
     }
     .overlay-content:nth-child(2) {
         margin-left: -27px;
@@ -969,7 +984,7 @@ span.cbp-biprev:before {
     .aniimg_small {
         display: block;
         margin-left: 373px;
-        margin-top: -50px;
+        margin-top: -150px;
     }
     .right {
         top: 44.2%;
@@ -1048,6 +1063,9 @@ span.cbp-biprev:before {
         display: none; /* Chrome, Safari, Opera*/
     }
 /************** media query 1. Header mobile ****************/
+    header .container {
+        width: 768px;
+    }
     header h1 a {    
         margin-left: 32px;
     }
@@ -1058,11 +1076,15 @@ span.cbp-biprev:before {
         display: none;
     }
     header .nav .btn {
-        margin-left: -50px;
+        margin-left: -355px;
+    }
+    .overlay {
+        width: 768px;
     }
     .overlay .mobile {
         display: block;
         margin-bottom: 10px;
+        width: 768px;
     }
     .overlay .m-line {
         display: block;
@@ -1258,6 +1280,19 @@ span.cbp-biprev:before {
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 425px) {
     body {
         -ms-overflow-style: none; /* IE and Edge */
@@ -1403,7 +1438,6 @@ span.cbp-biprev:before {
         height: 374px;
     }
 }
-
 
 @media (max-width: 320px) {
     body {
