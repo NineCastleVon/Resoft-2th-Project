@@ -89,14 +89,20 @@ header button {
 }
 
 /************************************* 로고 ****************************************/
-header h1 a { 
+header h1 a img {
+    width: 133px;
+    height: 30px;
+}
+header h1 a .bh {
+    display: block;
     font-weight: bold;
     color: white;
     margin-left: 360px;
 }
-header h1 a img {
-    width: 133px;
-    height: 30px;
+header h1 a .af {
+    display: none;
+    font-weight: bold;
+    margin-left: 360px;
 }
 
 /*************************** 메뉴 ********************************/
@@ -597,6 +603,8 @@ span.cbp-biprev:before {
 }
 .aniimg_small {
     display: none;
+    width: 534px;
+    height: 534px;
 }
 
 .right {
@@ -743,6 +751,17 @@ span.cbp-biprev:before {
     margin-bottom: -100px;
 }
 
+.refer_header .refer_header_p1 {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+.refer_header .refer_header_p2 {
+    color: #C8C8C8;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
 .refer_web {
     left: 240px; 
     width: 1440px;
@@ -832,8 +851,8 @@ span.cbp-biprev:before {
     header .container {
         width: 1280px;
     }
-    header h1 a {    
-        margin-left: 140px;
+    header .container h1 {    
+        margin-left: -220px;
     }
     header .nav {
         margin-left: 265px;
@@ -1063,11 +1082,11 @@ span.cbp-biprev:before {
         width: 768px;
         z-index: 1000;
     }
-    header h1 a {    
-        margin-left: 32px;
+    header .container h1 {    
+        margin-left: -328px;
     }
     header .nav {
-        margin-right: -228px;
+        margin-left: 638px;
     }
     header .nav a {
         display: none;
@@ -1282,6 +1301,19 @@ span.cbp-biprev:before {
         line-height: 1.7;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 425px) {
     body {
@@ -1521,13 +1553,14 @@ span.cbp-biprev:before {
     #Reference {
         position:relative;
         width: 425px;
-        top: 100px;
         left: -105px;
-        height: 910px;
+        height: auto;
     }
     .refer_web {
         width: 400px;
         margin-left: -120px;
+        height: auto;
+        padding-bottom: 50px;
     }
     .refer_header {
         text-align: center;
@@ -1548,7 +1581,7 @@ span.cbp-biprev:before {
     }
 /************** media query 6. footer mobile ****************/
     #footer {
-        height: 431px;
+        height: 331px;
         background-color: #E9E9E9;
         width: 425px;
     }
@@ -1562,7 +1595,6 @@ span.cbp-biprev:before {
     #footer .footer-logo {
         margin-left: -208px;
         width: 425px;
-        padding-top: 30px;
     }
     .footer-wrap .address {
         letter-spacing: -0.8px;
@@ -1578,12 +1610,12 @@ span.cbp-biprev:before {
         margin-left: 32px;
         line-height: 1.7;
         font-size: 13px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .footer-wrap .address .footer-inform-add {
         margin-left: 32px;
         line-height: 1.7;
         font-size: 13px;
-        margin-top: 110px;
+        margin-top: 100px;
     }
 }
